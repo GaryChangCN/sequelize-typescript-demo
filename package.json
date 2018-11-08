@@ -1,0 +1,26 @@
+{
+    "name": "ts-mysql",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "docker": "cd docker && docker-compose up"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^10.12.3",
+        "onchange": "^5.1.0",
+        "ts-node": "^7.0.1",
+        "tslint": "^5.11.0",
+        "typescript": "^3.1.6"
+    },
+    "dependencies": {
+        "mysql2": "^1.6.4",
+        "reflect-metadata": "^0.1.12",
+        "sequelize": "^4.41.1",
+        "sequelize-typescript": "^0.6.6"
+    }
+}
